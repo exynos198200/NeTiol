@@ -1,0 +1,5 @@
+-dontwarn org.eclipse.jgit.**
+-dontwarn org.slf4j.**
+-dontwarn javax.naming.**
+-keep class org.eclipse.jgit.** { *; }
+-keepclassmembers class kotlinx.serialization.json.** { *; }
